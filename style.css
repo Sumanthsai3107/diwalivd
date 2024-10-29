@@ -69,10 +69,17 @@ h3{
 
 .end{
     font-family: sans-serif;
-    font-size: 50px;
+    font-size: 0px;
     font-weight: 400;
     color: #ff7400;
     text-align: center;
+}
+
+.responsive-img {
+    width: 100%;
+    height: auto;
+    max-width: 600px;
+    border-radius: 10px;
 }
 @media only screen and (max-width: 600px) {
     body {
@@ -124,5 +131,8 @@ h3{
 
     .end {
         font-size: 30px;
+    }
+    .responsive-img {
+        max-width: 100%;
     }
 }
