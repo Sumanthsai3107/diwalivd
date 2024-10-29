@@ -74,3 +74,55 @@ h3{
     color: #ff7400;
     text-align: center;
 }
+@media only screen and (max-width: 600px) {
+    body {
+        font-size: 14px;
+        padding: 10px;
+        background-size: cover;
+    }
+
+    h1 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .video-container {
+        flex-direction: column;
+    }
+
+    video {
+        width: 100%;
+        height: auto;
+    }
+
+    .max {
+        padding: 0;
+    }
+
+    .imagebomb {
+        top: 10%;
+        left: 10px;
+    }
+
+    .diwadet {
+        font-size: 0.9em;
+        line-height: 1.5em;
+    }
+
+    h2 {
+        font-size: 1em;
+    }
+
+    h3 {
+        font-size: 1.2em;
+        margin-top: 80px;
+    }
+
+    .wallpap {
+        margin: 20px 0;
+    }
+
+    .end {
+        font-size: 30px;
+    }
+}
