@@ -10,7 +10,7 @@
     <div class="container max">
         <div class="child">
             <div class="video-container">
-                <video controls poster="" autoplay>
+                <video controls poster="" autoplay id="myVideo">
                     <source src="./mine.mp4" type="video/mp4">
                     Your browser does not support the video tag.
                 </video>
@@ -19,4 +19,14 @@
        
     </div>
 </body>
+    <script>
+        document.addEventListener('DOMContentLoaded', (event) => {
+    const video = document.getElementById('myVideo');
+    
+    video.addEventListener('loadeddata', () => {
+        video.play();
+    });
+});
+
+    </script>
 </html>
